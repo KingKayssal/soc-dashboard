@@ -1,0 +1,24 @@
+# Secrets — never commit these
+.env
+.env.local
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+frontend/.vite/
+
+# Docker
+infra/*.log
+
+# OS / editor
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
